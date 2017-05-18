@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    /*position: fixed;*/
+    height: 40px;
+    width: 100%;
+    background-color: #247;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #900;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+    line-height: 40px;
+    cursor:pointer
+}
+
+a:visited {
+    text-decoration: none;
+    color: #900;
+    cursor:pointer
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: white;
+    cursor:pointer
+}
+
+.header ul li a:visited {
+    text-decoration: none;
+    color: white;
+    cursor:pointer
+}
+
+.nav-left li:first-child {
+    margin-right: 30px;
+}
+
+.header .menu {
+    display: flex;
+
+}
+
+.nav-right {
+    float: right;
+    line-height: 40px;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.header ul li {
+    list-style: none;
+    margin: 0 10px 0 10px;
+}
+
+.container {
+    /*margin-top: 40px;*/
+    overflow-y: scroll;
+}
+
+.container .content {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.nav-left {
+    margin: 0 auto;
+    margin-left: 1%;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+.nav-left li {
+    float: left;
+    text-align: center;
+}
+
+.login {
+    margin-top: 50px;
+}
+
+.login tr {
+    margin-top: 10px;
+}
+
+.login input {
+    width: 180px;
+}
+
+.login tr:last-child input {
+    width: 240px;
+}
+
+.article-info {
+    width: 100%;
+    height: 25px;
+}
+
+.message {
+    text-align: center;
+    color: red;
+}
+
+.button {
+    width: 100px;
+}
+
+.color-green {
+    background-color: lawngreen;
+}
+
+.color-yellow {
+    background-color: yellow;
+}
+
+.color-red {
+    background-color: red;
+}
